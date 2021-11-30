@@ -1,0 +1,12 @@
+<h2>Búsquedas</h2>
+<hr>
+<ul class="list-group">
+    <!-- cuando se define un path vacio se usa la propiedad routerLinkActiveOptions -->
+    <li routerLink="" routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact : true}" 
+        class="list-group-item">Buscar por pais</li>
+    <li routerLink="region" routerLinkActive="active" 
+        class="list-group-item">Buscar por region</li>
+    <li routerLink="capital" routerLinkActive="active" 
+        class="list-group-item">Buscar por capital</li>
+</ul>
